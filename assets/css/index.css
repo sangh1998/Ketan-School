@@ -1,0 +1,1331 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400&family=Open+Sans:wght@600&family=Poppins:wght@400;600&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=:wght@100;200;300;400&family=Open+Sans:wght@600&family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400&family=Open+Sans:wght@600&family=Poppins:wght@400;600&family=Roboto:wght@300;400;500;700;900&family=Sacramento&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: "Catamaran", sans-serif;
+    font-size: 16px;
+}
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+.Sacramento{
+    font-weight: 700;
+    font-size: 30px;
+    color: #F94528;
+    font-family: 'Sacramento', cursive;
+}
+
+/* universal css star */
+.success01 {
+    background-color: #569BAF;
+}
+
+.success2 {
+    background-color: #DCA455;
+}
+
+.success3 {
+    background-color: #6A4881;
+}
+
+.success4 {
+    background-color: #CB562E;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-orange {
+    color: #EA512E
+}
+
+.text-orange2 {
+    color: #F94528
+}
+
+.text-black {
+    color: #1B0238
+}
+
+.text-silver {
+    color: #8E6B84
+}
+
+.bg-orange {
+    background-color: #EA512E;
+}
+
+.bg-text1 {
+    color: #fff;
+}
+
+.bg-yellow {
+    background-color: #fd7e14
+}
+
+.bg-light-yellow {
+    background-color: #fee9ca
+}
+
+.teachers-core {
+    background-color: #fdf3e6;
+}
+
+.bg-yellow1 {
+    background-color: #fd7e14;
+    border: 0;
+    display: inline-block;
+    padding: 12px 35px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: #fd7e14 !important;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    color: #fff;
+    position: relative;
+}
+
+
+.bg-yellow1:hover {
+    background-color: #cd1f05 !important;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 2.5rem;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: #EA512E;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    color: #fff;
+    position: relative;
+    font-weight: bold;
+}
+
+.btn-outline-success {
+    border:none;
+
+}
+.mt-20{
+    margin-top:220px;
+}
+a {
+    text-decoration: none;
+
+}
+
+.mt-6 {
+    margin-top: 60px;
+    ;
+}
+
+.mt-7 {
+    margin-top: 70px;
+    ;
+}
+
+.mt-8 {
+    margin-top: 80px;
+}
+
+.mt-9 {
+    margin-top: 90px;
+}
+
+.mt-10 {
+    margin-top: 100px;
+}
+
+.mt-15 {
+    margin-top: 150px;
+}
+
+.mt-20 {
+    margin-top: 200px;
+}
+
+.top-4 {
+    top: 4%;
+}
+
+.top-10 {
+    top: 10%;
+}
+
+.top-11 {
+    top: 10%;
+    margin-right: 60px;
+}
+
+.top-10 {
+    top: 20%;
+}
+
+.start-10 {
+    left: 20%;
+}
+
+.pt-10 {
+    padding-top: 100px;
+}
+
+.pb-7 {
+    padding-bottom: 70px;
+}
+
+.pb-10 {
+    padding-bottom: 100px;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+    color: #6b6b84;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #1b0238;
+    font-family: "Catamaran", sans-serif;
+    font-weight: bold;
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* universal css end */
+
+/* CSS OF INDEX / LANDING PAGE START SINCE HERE START @@@@@@@@@@ START @@@@@@@@@@@ */
+
+
+@keyframes name {
+    0% {
+        transform: scale3d(1, 1, 1)
+    }
+
+    10%,
+    20% {
+        transform: scale3d(0.7, 0.7, 0.7) rotate3d(0, 0, 1, -3deg)
+    }
+
+    50%,
+    30%,
+    70%,
+    90% {
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg)
+    }
+
+    40%,
+    60%,
+    90% {
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg)
+    }
+
+    100% {
+        transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 3deg);
+    }
+
+}
+
+.rotate a {
+    text-decoration: none;
+    line-height: 45px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+
+div.rotate:hover {
+    background-color: #F94528 !important;
+    color: #ffffff !important;
+    transition: all .6s linear;
+}
+div.rotate {
+    position: fixed;
+    font-weight: bold;
+    top: 50%;
+    right: 50px;
+    width: 130px;
+    height: 45px;
+    color: #fff;
+    background-color:#82B440 !important;
+    border-radius: 25px;
+    z-index: 999;
+    transition: all 10/3s linear;
+    animation: name;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+.btn:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #fd7e14;
+    z-index: -1;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: #fd7e14;
+    color: #fff
+}
+
+.floating-img{
+    background-image: url(../img/main-banner-bg.jpg);
+    z-index: -10;
+    width: 100%;
+    height: 30rem;
+    background-size: cover;
+    background-position: center ;
+}
+
+
+.shape1 {
+    top: 3.5%;
+    left: .7%;
+    width: 4rem;
+    animation: move 1s linear infinite alternate;
+}
+
+.shape2 {
+position: absolute;
+    top: 50%;
+    left: .7%;
+    width: 5rem;
+    animation: move2 1s linear infinite alternate;
+    z-index: 1;
+}
+
+.shape3 {
+    position: absolute;
+    width: 5rem;
+    bottom: 50%;
+    left: .7%;
+    animation: move3 1s linear infinite alternate;
+}
+
+.shape4 {
+    top: 23rem;
+    width: 10rem;
+    z-index: 1;
+
+}
+
+.shape12 {
+    position: absolute;
+    top: 70%;
+    right: 50rem;
+    width: 5rem;
+    animation: move4 2s linear infinite alternate;
+}
+
+@keyframes move {
+    0% {}
+
+    100% {
+        left: 2%
+    }
+}
+
+@keyframes move1 {
+    0% {}
+
+    100% {
+        right: 2%
+    }
+}
+
+@keyframes move2 {
+    0% {}
+
+    100% {
+        left: 2%
+    }
+}
+
+@keyframes move3 {
+    0% {
+        rotate: 30deg;
+    }
+
+    100% {
+        left: 2%;
+        rotate:50deg;
+    }
+}
+
+@keyframes move4 {
+    1% {
+        top: 60%
+    }
+
+    0% {
+        bottom: 10%
+    }
+}
+@keyframes move5 {
+    10% {
+        top: 10%
+    }
+30%{
+    rotate: 20deg;
+}
+60%{
+    rotate: -20deg;
+}
+}
+
+.owl{
+    right: -4rem;
+    top:30%;
+    animation: move5 3s linear infinite alternate;
+    
+}
+
+.boy::before {
+    position: absolute;
+    z-index: 10;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #ea512e;
+    left: 0;
+    right: 0;
+    top: 100;
+    z-index: -1;
+    border-radius: 50%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-animation: border-transform-default 10s linear infinite alternate forwards;
+    animation: border-transform-default 10s linear infinite alternate forwards;
+}
+
+.boy::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #f5890d;
+    left: 0;
+    right: 0;
+    top: 100;
+    z-index: -1;
+    border-radius: 50%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-animation: border-transform-default 50s linear infinite alternate forwards;
+    animation: border-transform-default 30s linear infinite alternate forwards;
+}
+
+
+@keyframes border-transform-default {
+
+
+    0%,
+    100% {
+        border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
+    }
+
+    14% {
+        border-radius: 40% 60% 54% 46%/49% 60% 40% 51%;
+    }
+
+    28% {
+        border-radius: 54% 46% 38% 62%/49% 70% 30% 51%;
+    }
+
+    42% {
+        border-radius: 61% 39% 55% 45%/61% 38% 62% 39%;
+    }
+
+    56% {
+        border-radius: 61% 39% 67% 33%/70% 50% 50% 30%;
+    }
+
+    70% {
+        border-radius: 50% 50% 34% 66%/56% 68% 32% 44%;
+    }
+
+    84% {
+        border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
+    }
+}
+
+.popular .card:hover img {
+    transform: rotate(2deg) scale(1.07);
+    transform: all 0.8s linear;
+    transition: all 0.8s;
+}
+.popular .card img {
+    transition: all 0.4s;
+    transform: all 0.3s linear;
+}
+.card-title:hover {
+    color: #fd7e14;
+    cursor: pointer;
+    transition: all 1s;
+}
+.popular .class1 {
+    bottom: -13rem;
+}
+
+.popular .class2 {
+    bottom: -13rem;
+    z-index: 1;
+}
+
+.card-body hr {
+    border-top: 3.5px dotted #ea512e;
+}
+
+.card-body .class-lsit ul li span {
+    color: #ea512e;
+    font-family: ' cursive';
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.class-lsit ul li {
+    display: inline;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.core-value .number {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    line-height: 60px;
+    font-size: 25px;
+    font-family: 'Catamaran', sans-ser;
+    background-color: #d3f5fe;
+    text-align: center;
+    cursor: context-menu;
+    border: 2px solid #fff;
+    outline: 1.5px solid #e1d1d1;
+    outline-offset: 3px;
+    transition: all 0.5s;
+    margin-right: 20px;
+}
+
+.core-value .bott {
+    position: absolute;
+    top: 535px;
+    left: 0px;
+}
+
+.core-value .number:hover {
+    color: #fff;
+    background-color: #EA512E !important;
+    outline-color: #EA512E !important;
+    transition: all 0.5s;
+}
+
+
+
+/* Teacher-core secton Start */
+.teachers-core .social-meida {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: -60px;
+    transition: all 0.4s ease-in;
+}
+
+.teachers-core .social-meida.bg-yellow {
+
+    background-color: #ea512e !important;
+}
+
+.teachers-core .teacher-image:hover .social-meida {
+    margin-bottom: 0px;
+    transition: all 0.6s ease-in;
+}
+
+.teacher-image.boy1 {
+    z-index: 999 !important;
+}
+
+.boy1::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #ea512e;
+    left: 0;
+    right: 0;
+    top: 100;
+    z-index: -1;
+    border-radius: 50%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-animation: border-transform-default 10s linear infinite alternate forwards;
+    animation: border-transform-default 10s linear infinite alternate forwards;
+}
+
+.boy1::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #f5890d;
+    left: 0;
+    right: 0;
+    top: 100;
+    z-index: -1;
+    border-radius: 50%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-animation: border-transform-default 50s linear infinite alternate forwards;
+    animation: border-transform-default 30s linear infinite alternate forwards;
+}
+
+@keyframes border-transform-default {
+
+
+    0%,
+    100% {
+        border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
+    }
+
+    14% {
+        border-radius: 40% 60% 54% 46%/49% 60% 40% 51%;
+    }
+
+    28% {
+        border-radius: 54% 46% 38% 62%/49% 70% 30% 51%;
+    }
+
+    42% {
+        border-radius: 61% 39% 55% 45%/61% 38% 62% 39%;
+    }
+
+    56% {
+        border-radius: 61% 39% 67% 33%/70% 50% 50% 30%;
+    }
+
+    70% {
+        border-radius: 50% 50% 34% 66%/56% 68% 32% 44%;
+    }
+
+    84% {
+        border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
+    }
+}
+
+
+/* /Teacher-core secton End */
+
+
+/* Testmonial section start */
+
+.slider-wrap {
+    position: relative;
+    overflow-x: hidden;
+    height: 500px;
+}
+
+.slider-main {
+    position: absolute;
+    width: 250%;
+}
+
+.item {
+    height: 350px;
+    margin: 15px;
+    width: 400px;
+    height: auto;
+    display: inline-block;
+}
+
+.item .card {
+    height: 350px;
+    background-color: #FEE9CA;
+}
+
+.item .card .text-orange1 {
+    background-color: #cd1f05 !important;
+    margin-top: 5px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 165px;
+    padding: 15px;
+    color: white !important;
+    margin-bottom: 25px;
+    transition: all .6s;
+}
+
+.item .card .text-orange1:hover {
+    color: #fff;
+    background: #fd7e14 !important;
+    transition: all .6s;
+}
+
+
+
+.card:hover i {
+    color: #fff;
+    background-color: #cd1f05;
+}
+
+.nav-buutton button{
+    margin-top:180px;
+}
+
+.slider-wrap .card:hover .nav-buutton button{
+    display: inline block;
+}
+.item .ms-51 {
+    margin-top: 25px;
+    margin-left: 90px;
+}
+
+/* Testmonial section End */
+
+/* upcomng eventst section start */
+.events {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../img/event-bg.jpg);
+    width: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.events .size1 {
+    font-size: 90px !important;
+}
+
+/* /upcomng eventst section end */
+/* latest News section start */
+.latest-news .card {
+    background-color: #FDEEE9;
+    overflow: hidden;
+    transition: all 0.5s;
+
+}
+
+.latest-news .card:hover img {
+    transform: rotate(2deg) scale(1.05);
+    transform: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.latest-news .card img {
+    transform: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+/* /latest News section End */
+
+/* footer section start  */
+.footer {
+    background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, 0.9)), url(../img/footer-bg.jpg);
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    transition: all 0.7s;
+}
+
+footer ul li .fa-facebook-f:hover,
+footer ul li .fa-instagram:hover,
+footer ul li .fa-linkedin-in:hover,
+footer ul li .fa-twitter:hover {
+    margin-top: -7px;
+    background-color: red;
+    color: #fff;
+    transition: all 0.7s linear;
+}
+
+footer ul li .fa-facebook-f,
+footer ul li .fa-instagram,
+footer ul li .fa-linkedin-in,
+footer ul li .fa-twitter {
+    transition: all 0.7s linear;
+}
+
+footer ul li .fs {
+    margin-top: 1px;
+    transition: all 0.7s linear;
+
+}
+
+footer h3::before {
+    position: absolute;
+    content: '';
+    margin-top: 50px;
+    height: 2px;
+    width: 50px;
+    background-color: #ea512e;
+}
+
+footer .Gallary img:hover {
+    transform: scale(1.4);
+    transform: all .6s linear;
+    transition: all 0.9s;
+}
+
+footer .Gallary {
+    position: relative;
+}
+
+footer .Gallary img {
+    transform: all .6s linear;
+    transition: all 0.9s;
+}
+
+footer .Gallary.box1::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: 0.3;
+    background-color: #CB562E !important;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+footer .Gallary.box1::before {
+    opacity: 0.5;
+    visibility: visible;
+}
+
+.fotter-contact a:hover {
+
+    color: #ea512e !important;
+    transition: 0.5s;
+}
+
+.fotter-contact a::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    background-color: #cd1f05;
+    transition: all 0.5s;
+
+}
+
+.fotter-contact {
+    position: relative;
+}
+
+.fotter-contact a:hover::after {
+    position: absolute;
+    width: 100%;
+    background-color: #cd1f05;
+    transition: all 0.5s;
+
+}
+
+/* /footer section End */
+
+/* @Copyright section last start */
+.copyright {
+    width: 100%;
+    height: auto;
+    background-color: #091629;
+}
+
+/* @Copyright section last End */
+
+
+/* banner sectjion start */
+.banner1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/page-banner\ about-1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    position: relative;
+    height: 480px;
+    background-attachment: fixed;
+}
+
+.banner1 h2 {
+    position: absolute;
+    top: 280px;
+    text-align: center;
+}
+
+.banner1 ul li {
+    display: inline-block;
+    text-align: center;
+}
+
+.banner1 ul {
+    position: absolute;
+    top: 350px;
+    text-align: center;
+}
+
+.banner1 ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    margin: 10px;
+}
+
+.hero1 ul li {
+    padding: 10px;
+    font-weight: 600;
+    color: #1b0238;
+    font-size: 19px;
+    ;
+}
+
+.hero1 ul li span {
+    width: 30px;
+    height: 30px;
+    padding: 3px 13px;
+    border-radius: 50%;
+    line-height: 30px;
+    background-color: #ea512e;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: 'Catamaran', sans-ser;
+    font-weight: 600;
+    transition: all 0.4s linear;
+}
+
+.hero1 ul li span:hover {
+    transition: all 0.4s linear;
+    background-color: #f5890d;
+}
+
+/* banner sectjion end */
+
+/* student section start */
+.students {
+    background: url(../img/fun-facts-bg.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+
+.students h1 {
+    margin-top: 55px;
+    font-size: 60px;
+    color: #fff;
+    font-weight: bold !important;
+
+}
+
+.students h4 {
+    color: #fff;
+    font-weight: bold !important;
+}
+
+.students .card {
+    height: 250px;
+    text-align: center;
+}
+
+/* student section End */
+
+/* expert-teachers section start */
+.expert-teachers .card .content {
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    display: none;
+}
+
+.expert-teachers .card:hover .content {
+    display: block;
+    color: #fff;
+    align-items: center;
+    margin-top: 110px;
+
+
+}
+
+.expert-teachers ul li {
+    background-color: #cd1f05;
+    padding: 12px;
+    border-radius: 50%;
+    transition: all 02s;
+}
+
+.expert-teachers ul li:hover {
+    background-color: #fd7e14;
+    transition: all 02s;
+}
+
+/* expert-teachers section End */
+
+.online-form {
+    background: url(../img/quote-bg.jpg);
+    ;
+    background-size: 100% 100%;
+    height: 760px;
+    width: 100%;
+    background-attachment: fixed;
+}    
+ .online-form .card{
+    position: absolute;
+    width: 50%;
+    right: 3rem;
+    margin-top: 6rem;
+ }
+.img-shape {
+    position: absolute;
+    top: 0;
+
+}
+
+.shape22 {
+    position: absolute;
+    display: none;
+
+}
+
+.shape23 {
+    position: absolute;
+    top: 400px;
+    animation-name: daaa;
+    animation-duration: 3s;
+    transition: all 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+.shape21 {
+    display: none;
+    top: 0px;
+    animation-name: bbbb;
+    animation-duration: 2s;
+
+}
+
+@keyframes bbbb {
+    0% {}
+
+    100% {
+        right: 2%;
+    }
+}
+
+@keyframes daaa {
+    0% {
+        right: 10px;
+    }
+
+    100% {
+        right: 50px;
+        transition: 0.5s;
+    }
+}
+
+/* Testimonials-1 section start  */
+.Testmonials-1 .card img{
+    width: 300px;
+    height: 400px;
+    border-radius: 50% !important;
+}
+
+.boy100 {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #f8a94e;
+    left: 0;
+    right: 0;
+    top: 100;
+    z-index: -1;
+    border-radius: 50%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-animation: border-transform-default 50s linear infinite alternate forwards;
+    animation: border-transform-default 30s linear infinite alternate forwards;
+}
+
+.boy100 {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #e8350d;
+    left: 0;
+    right: 0;
+    top: 100;
+    z-index: -1;
+    border-radius: 50%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-animation: border-transform-default 10s linear infinite alternate forwards;
+    animation: border-transform-default 10s linear infinite alternate forwards;
+
+}
+
+/* / Testimonials -1 section end */
+
+
+/* news letter start */
+
+
+/* Teachr Banner section start */
+.BannerT.area1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/page-banner-2.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+
+}
+
+.BannerT.area1 h2 {
+    font-size: 45px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #ef2405 !important;
+    width: 10px;
+    content: "|" !important;
+}
+
+/* Teachr-list section End */
+
+/* CSS  OF TEACHER PAGE SINCE End HERE @@@@@@@@@@@@@@@@@@@@@@@@@@@ END/  @@@@@@*/
+/* gallery about start*/
+.Gallary .row{
+ display: flex;
+ flex-wrap: wrap;
+ margin: -10px;
+}
+.Gallary .row .col{
+    flex: 1;
+    padding: 10px;
+}
+/* gallery about end */
+/* CSS OF GALLARY .HTML SINCE START HER @@@@@@@@@@@@@@@@@@@@@@@@@@@@@ START @@@2@ */
+
+/* gallary section start */
+.single-gal::before {
+    width: 100%;
+    content: '';
+    position: absolute;
+    height: 100%;
+    background-color: #000000;
+    left: 0;
+    top: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 15px;
+}
+
+.single-gal:hover::before {
+    opacity: .30;
+    visibility: visible;
+}
+
+.gallry-btn:hover .gallry-btn {
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0;
+}
+
+.single-gal {
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.single-gal .gallry-btn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    font-size: 35px;
+    color: #ffffff;
+    margin-top: 20px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.fa-solid .fa-magnifying-glass:before {
+    content: "\ebf8";
+    background-color: red !important;
+}
+
+.single-gal .glass11 {
+    display: none !important;
+}
+
+.single-gal:hover .glass11 {
+    display: inline-block;
+}
+
+.margin-top .fs-2 {
+    position: absolute;
+    margin-top: -200px;
+    right: 0;
+    left: 0;
+    color: #fff;
+    opacity: .2;
+    
+}
+.margin-top .fs-2:hover{
+    opacity:.90;
+}
+.view-more button{
+    margin-left:600px;
+}
+
+.Newslatter-area{
+    background-color:#FCEDE8;
+    position: relative;
+    z-index: 1;
+}
+
+.newslatter-shape .shape55{
+    position: absolute;
+    left:0;
+top:23%;
+z-index: -1;
+}
+.newslatter-shape img{
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+.newslatter-shape .shape56{
+    position: absolute;
+    right: 0;
+    top:9%;
+    z-index: -1;
+}
+/* newslatter section End */
+.BannerD.area1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/gallery-5.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+
+}
+
+/* CSS OF CLASS  PAGE START HERE################ START############ */
+
+.popular-tags div button{
+    padding: 10px 30px;
+    margin: 10px;
+}
+
+.BannerB.area1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/page-banner-5.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+
+}
+
+.BannerB.area1 h2 {
+    font-size: 45px;
+}
+
+.BannerC.area1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/page-banner\ about-2jpg.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+
+}
+
+.BannerA.area1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/page-banner-4.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+
+}
+
+.BannerA.area1 h2 {
+    font-size: 45px;
+}
+
+.Teacher-list img{
+    border-radius: 50%;
+}
+.Teacher-list .col-lg-3 .list-unstyled{
+    display: none;
+   position: relative;
+   transition: bottom 0.5s;
+} 
+.Teacher-list .col-lg-3:hover .list-unstyled{
+    z-index: 100;
+    display: block;
+    bottom: 10rem;
+}

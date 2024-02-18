@@ -1,0 +1,56 @@
+@media screen and (max-width:990px) {
+    #girlimg{
+        opacity: 0.7;
+        z-index: -1;
+    }
+    .shape2{
+        top: 14rem;
+        opacity: 0.8;
+    }
+    .owl{
+        right: 4rem;
+        top:70%;
+        bottom: 0%;
+        animation: move5 3s linear infinite alternate;
+        
+    }
+    .popular .class1 {
+        bottom: -10rem;
+        z-index: 1;
+        width: 13rem;
+    }
+    .popular .class2 {
+        bottom: -10rem;
+        z-index: 1;
+        width: 13rem;
+    }
+
+    .students h1 {
+        margin-top: 25px;
+        font-size: 60px;
+        color: #fff;
+        font-weight: bold !important;
+    
+    }
+    
+    .students h4 {
+        color: #fff;
+        font-weight: bold !important;
+    }
+    
+    .students .card {
+        margin-top: 2rem;
+        height: 200px;
+        text-align: center;
+    }
+    .expert-teachers{
+        padding-top: 33rem;
+    }
+    
+    .online-form .card{
+        margin-top: 6rem;
+        position: absolute;
+        width: 80%;
+    }
+    
+}
